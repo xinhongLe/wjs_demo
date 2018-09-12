@@ -1,0 +1,314 @@
+.wjs_top {
+  height: 50px;
+  line-height: 50px ;
+  border-bottom: 1px solid #ccc;
+}
+.wjs_top .row {
+  height: 100%;
+  text-align: center;
+}
+.wjs_top .row > div:nth-of-type(-n+3) {
+  border-right: 1px solid #ccc;
+}
+.wjs_top .row > div:first-child > a {
+  display: block;
+  position: relative;
+}
+.wjs_top .row > div:first-child > a img {
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 49px;
+}
+.wjs_top .row > div:first-child > a:hover img {
+  display: block;
+  z-index: 999;
+}
+.wjs_top .row > div:last-child .btn-danger {
+  background-color: #e92322;
+}
+.wjs_top .row > div:last-child .btn {
+  padding: 3px 15px;
+}
+.wjs_top .row > div:last-child .btn-link {
+  color: #333;
+}
+.wjs_top .row > div:last-child .btn-link:hover {
+  text-decoration: none;
+}
+.wjs_nav.navbar {
+  margin-bottom: 0;
+}
+.wjs_nav .navbar-header .navbar-toggle {
+  margin-top: 23px;
+}
+.wjs_nav .navbar-header > a {
+  height: 80px;
+  line-height: 50px;
+  font-size: 16px;
+}
+.wjs_nav .navbar-header > a > span:first-child {
+  font-size: 40px;
+  color: #e92322;
+}
+.wjs_nav .navbar-header > a > span:last-child {
+  font-size: 40px;
+  color: #000;
+}
+.wjs_nav .navbar-collapse li a {
+  height: 80px;
+  line-height: 50px;
+  font-size: 16px;
+}
+.wjs_nav .navbar-collapse li a:hover {
+  border-bottom: 3px solid #e92322;
+}
+.wjs_nav .navbar-collapse .navbar-nav li.active > a {
+  background-color: transparent;
+}
+.wjs_banner .item .mobileImg {
+  display: block;
+  width: 100%;
+}
+.wjs_banner .item .mobileImg > img {
+  width: 100%;
+  display: block;
+}
+.wjs_banner .item .pcImg {
+  display: block;
+  width: 100%;
+  height: 410px;
+  background-position: center center;
+}
+.wjs_info {
+  margin-top: 40px;
+}
+.wjs_info .row > div {
+  margin: 20px 0;
+  position: relative;
+}
+.wjs_info .row > div span {
+  padding-left: 10px;
+  font-size: 30px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.wjs_info .row > div > div {
+  margin-left: 35px;
+}
+.wjs_info .row > div:hover {
+  color: #e92322;
+}
+.wjs_reverse {
+  height: 60px;
+  line-height: 60px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.wjs_reverse .row div:first-child span:first-child {
+  font-size: 20px;
+}
+.wjs_reverse .row div:first-child a:last-child {
+  color: #e92322;
+  border-bottom: 1px dashed #e92322;
+}
+.wjs_reverse .row div:last-child span:first-child {
+  font-size: 20px;
+}
+.wjs_product {
+  clear: both;
+  padding: 20px;
+  background-color: #e7e7e7;
+}
+.wjs_product .nav-tabs > li > a {
+  height: 60px;
+  border-radius: 0px;
+  border: none;
+}
+.wjs_product .nav-tabs > li > a:hover,
+.wjs_product .nav-tabs > li > a:focus {
+  background-color: transparent;
+  border-bottom: 3px solid #e92322;
+}
+.wjs_product .nav-tabs > li.active a,
+.wjs_product .nav-tabs > li.active a:hover,
+.wjs_product .nav-tabs > li.active a:focus {
+  background-color: transparent;
+  border-radius: 0px;
+  border: none;
+  border-bottom: 3px solid #e92322;
+}
+.pro_box {
+  height: 150px;
+  margin-top: 20px;
+  position: relative;
+  background-color: #fff;
+}
+.pro_box .pro_left {
+  margin-right: 100px;
+  height: 150px;
+  padding-top: 10px;
+  font-size: 12px;
+  padding-left: 10px;
+}
+.pro_box .pro_left > p {
+  text-align: center;
+  font-size: 16px;
+}
+.pro_box .pro_right {
+  width: 100px;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 32px;
+  padding-left: 25px;
+  box-sizing: border-box;
+  border-left: 1px dashed #ccc;
+}
+.pro_box .pro_right > b {
+  font-size: 40px;
+  color: #e92322;
+}
+.pro_box .pro_right > sub {
+  color: #e92322;
+}
+.pro_box .pro_right::before,
+.pro_box .pro_right::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #e7e7e7;
+  position: absolute;
+}
+.pro_box .pro_right::before {
+  left: -6px;
+  top: -5px;
+}
+.pro_box .pro_right::after {
+  left: -6px;
+  bottom: -5px;
+}
+.pro_box.active {
+  background-color: #e92322;
+  color: #fff;
+}
+.pro_box.active .pro_right > sub {
+  color: #fff;
+}
+.pro_box.active .pro_right > b {
+  color: #fff;
+}
+.pro_box .wjs_tip {
+  width: 100%;
+  position: absolute;
+  left: 25px;
+  top: 14px;
+}
+.pro_box .wjs_tip .btn {
+  padding: 0;
+}
+.pro_box .wjs_tip .btn-default {
+  border-radius: 0;
+}
+.pro_box .wjs_tip button:first-child {
+  color: #e92322;
+  border: 1px solid #e92322;
+}
+.pro_box .wjs_tip button:last-child {
+  color: skyblue;
+  border: 1px solid skyblue;
+}
+.wjs_news {
+  padding-top: 20px;
+}
+.wjs_news .wjs_allNews {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  position: relative;
+}
+.wjs_news .wjs_allNews::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  position: absolute;
+  bottom: -4px;
+  right: -8px;
+}
+.wjs_news .nav-tabs {
+  position: relative;
+  border-bottom: none;
+}
+.wjs_news .nav-tabs .news_dashed {
+  width: 1px;
+  height: 100%;
+  border-left: 1px dashed #e92322;
+  position: absolute;
+  left: 52%;
+  top: 0;
+}
+.wjs_news .nav-tabs > li {
+  margin-bottom: 60px;
+}
+.wjs_news .nav-tabs > li > a {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+.wjs_news .nav-tabs > li > a > span {
+  font-size: 30px;
+  color: #fff;
+}
+.wjs_news .nav-tabs > li.active > a,
+.wjs_news .nav-tabs > li.active a:hover,
+.wjs_news .nav-tabs > li.active a:focus {
+  border: none;
+  background-color: #e92322;
+}
+.wjs_news .nav-tabs > li:last-child {
+  margin-bottom: 0px;
+}
+.wjs_newslist > li {
+  height: 60px;
+  list-style: none;
+}
+@media screen and (max-width: 768px) {
+  .nav-tabs > li {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .nav-tabs > li {
+    margin: 20px 30px;
+  }
+}
+.wjs_partner {
+  background-color: #eee;
+  text-align: center;
+  padding: 20px;
+}
+.wjs_partner h3 {
+  text-align: center;
+}
+.wjs_partner ul {
+  overflow: hidden;
+  padding: 10px;
+}
+.wjs_partner ul li {
+  float: left;
+  list-style: none;
+  padding: 20px;
+}
+.wjs_partner ul li a {
+  display: inline-block;
+  font-size: 80px;
+}
